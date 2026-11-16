@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="navbar-brand">Catalina Cisneros</a>
+
+      <button class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="navbar-links" id="navbar-links">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <header class="hero">
+    <div class="hero-container">
+      <img src="https://static.vecteezy.com/system/resources/previews/073/776/796/non_2x/minimalist-faceless-businesswoman-in-suit-with-name-tag-illustration-graphic-vector.jpg" alt="Foto de perfil de Tu Nombre" class="hero-img">
+      <h1 class="hero-title">Catalina Cisneros</h1>
+      <p class="hero-role">Desarrolladora Web</p>
+    </div>
+  </header>
+
+
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      
+      <div class="row">
+        <div class="col">
+            <a href="https://mccisneros-eng.github.io/color-game/">
+                <img src="https://miro.medium.com/v2/resize:fit:800/0*Uq1bA0Ve1TIPUMyx.jpeg" alt="Proyecto 1" class="portfolio-img">
+                <h3 class="project-title">Color Game</h3>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="https://mccisneros-eng.github.io/unidad9/">
+                <img src="https://images.ecestaticos.com/-kT0q-jkkNZ-_zMQedloqJpX8vU=/0x0:1942x1544/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F76c%2F7d2%2F1c4%2F76c7d21c437a3d97d398b7795d327367.jpg" alt="Proyecto 2" class="portfolio-img">
+                <h3 class="project-title">Piedra Papel o Tijera</h3>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="https://mccisneros-eng.github.io/Catalina-Cisneros-unidad-2/">
+                <img src="https://mccisneros-eng.github.io/unidad6/digital%20center.png" alt="Proyecto 3" class="portfolio-img">
+                <h3 class="project-title">Landing Page</h3>
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="acerca-de-mi" class="about-section">
+    <div class="about-container">
+      <h2 class="section-title">Acerca de mí</h2>
+      <hr class="about-divider">
+      <p class="about-text">
+        Soy desarrolladora web apasionada por crear sitios funcionales y adaptables. Me especializo en HTML, CSS y JavaScript. Actualmente estoy cursando el ultimo año de la secundaria en el colegio St. Brendans College.
+      </p>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact-section">
+    <div class="contact-container">
+      <h2 class="section-title">Contacto</h2>
+      <hr class="contact-divider">
+
+      <form action="https://submit-form.com/TU_FORM_ID" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="Ej: juan@ejemplo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Ej: +54 11 1234-5678">
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu consulta acá..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h3 class="footer-title">Datos de contacto</h3>
+          <p class="footer-info"><i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p>
+          <p class="footer-info"><i class="fa-solid fa-envelope"></i> mccisneros@stbrendans.edu.ar</p>
+          <p class="footer-info"><i class="fa-solid fa-phone"></i> +54 11 1234-5678</p>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-title">En la web</h3>
+          <div class="social-links">
+            <a href="https://www.facebook.com">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://twitter.com">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.twitch.tv">
+              <i class="fa-brands fa-twitch"></i>
+            </a>
+            <a href="https://www.linkedin.com">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright © Catalina Cisneros 2026 - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
